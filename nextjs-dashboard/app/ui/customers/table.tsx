@@ -7,9 +7,9 @@ import {
 } from '@/app/lib/definitions';
 
 export default async function CustomersTable({
-  customers,
+  customers
 }: {
-  customers: FormattedCustomersTable[];
+  customers: FormattedCustomersTable[]
 }) {
   return (
     <div className="w-full">
